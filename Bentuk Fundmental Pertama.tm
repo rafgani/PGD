@@ -67,7 +67,7 @@
 
         <\equation*>
           s<around*|(|t|)>=<big|int><rsup|t><rsub|t<rsub|0>><around*|\<\|\|\>|<wide|
-          \<gamma\>|\<dot\>><around*|(|\<tau\>|)>|\<\|\|\>>d\<tau\>=<big|int>
+          \<gamma\>|\<dot\>><around*|(|\<tau\>|)>|\<\|\|\>>d\<tau\>=<big|int><rsup|t<rsub|0>><rsub|t>
           <around*|\<langle\>|<wide| \<gamma\>|\<dot\>>,<wide|
           \<gamma\>|\<dot\>>|\<rangle\>><rsup|<frac|1|2>>d\<tau\>=<big|int>
           <sqrt| E<wide| u|\<dot\>><rsup|2>+2F<wide| u|\<dot\>><wide|
@@ -85,7 +85,15 @@
         \<sigma\><rsub|\<varphi\>>=0>, <math|G=\<sigma\><rsub|\<varphi\>>\<cdot\>
         \<sigma\><rsub|\<varphi\>>=cos<rsup|2>\<theta\>>
       </shown>|<\shown>
-        <item>
+        <item>Misal <math|\<gamma\><around*|(|t|)>=\<sigma\><around*|(|t,\<pi\>|)>>
+        maka
+
+        <\equation*>
+          s<around*|(|t|)>=<big|int><rsup|t><rsub|\<pi\>><sqrt| E<wide|
+          \<theta\><rsup|>|\<dot\>><rsup|2>+2F<wide| \<theta\>|\<dot\>><wide|
+          \<varphi\>|\<dot\>>+G<wide| \<varphi\>|\<dot\>><rsup|2>>d\<tau\>=<big|int><rsup|t><rsub|\<pi\>><sqrt|1+0+0>d\<tau\>=<big|int><rsup|t><rsub|\<pi\>>d\<tau\>
+          <rsub|>
+        </equation*>
       </shown>>
     </itemize>
   </shown>|<\hidden>
