@@ -39,7 +39,7 @@
         </equation*>
       </shown>>
     </itemize>
-  </hidden>|<\shown>
+  </hidden>|<\hidden>
     <tit|Bentuk Fundamental Pertama>
 
     <\itemize>
@@ -73,7 +73,13 @@
           <sqrt| E<wide| u|\<dot\>><rsup|2>+2F<wide| u|\<dot\>><wide|
           v|\<dot\>>+G<wide| v|\<dot\>><rsup|2>>d\<tau\> \ 
         </equation*>
-      </shown>|<\shown>
+      </shown>>
+    </itemize>
+  </hidden>|<\hidden>
+    <tit|Contoh>
+
+    <\itemize>
+      <unroll|<\shown>
         <item>Contoh:<math|\<sigma\><around*|(|\<theta\>,\<varphi\>|)>=<around*|(|cos
         \<theta\> cos \<varphi\>,cos \<theta\> sin \<varphi\>,sin
         \<theta\>|)>,\<sigma\><rsub|\<theta\>>=<around*|(|-sin \<theta\> cos
@@ -84,19 +90,29 @@
         \<sigma\><rsub|\<theta\>>=1>, <math|F=\<sigma\><rsub|\<theta\>>\<cdot\>
         \<sigma\><rsub|\<varphi\>>=0>, <math|G=\<sigma\><rsub|\<varphi\>>\<cdot\>
         \<sigma\><rsub|\<varphi\>>=cos<rsup|2>\<theta\>>
-      </shown>|<\shown>
-        <item>Misal <math|\<gamma\><around*|(|t|)>=\<sigma\><around*|(|t,\<pi\>|)>>
-        maka
-
-        <\equation*>
-          s<around*|(|t|)>=<big|int><rsup|t><rsub|\<pi\>><sqrt| E<wide|
-          \<theta\><rsup|>|\<dot\>><rsup|2>+2F<wide| \<theta\>|\<dot\>><wide|
-          \<varphi\>|\<dot\>>+G<wide| \<varphi\>|\<dot\>><rsup|2>>d\<tau\>=<big|int><rsup|t><rsub|\<pi\>><sqrt|1+0+0>d\<tau\>=<big|int><rsup|t><rsub|\<pi\>>d\<tau\>
-          <rsub|>
-        </equation*>
       </shown>>
+
+      <item>Misal <math|\<gamma\><around*|(|t|)>=\<sigma\><around*|(|t,\<pi\>|)>>
+      maka
+
+      <\equation*>
+        s<around*|(|t|)>=<big|int><rsup|t><rsub|0><sqrt| E<wide|
+        \<theta\><rsup|>|\<dot\>><rsup|2>+2F<wide| \<theta\>|\<dot\>><wide|
+        \<varphi\>|\<dot\>>+G<wide| \<varphi\>|\<dot\>><rsup|2>>d\<tau\>=<big|int><rsup|t><rsub|0><sqrt|1+0+0>d\<tau\>=<big|int><rsup|t><rsub|0>d\<tau\>
+        <rsub|>
+      </equation*>
+
+      <item>Misal <math|\<gamma\><around*|(|t|)>=\<sigma\><around*|(|<frac|\<pi\>|4>,t|)>>
+      maka
+
+      <\equation*>
+        s<around*|(|t|)>=<big|int><rsup|t><rsub|\<pi\>><sqrt| E<wide|
+        \<theta\><rsup|>|\<dot\>><rsup|2>+2F<wide| \<theta\>|\<dot\>><wide|
+        \<varphi\>|\<dot\>>+G<wide| \<varphi\>|\<dot\>><rsup|2>>d\<tau\>=<big|int><rsup|t><rsub|\<pi\>><sqrt|0+0+cos<rsup|2><around*|(|<frac|\<pi\>|4>|)>>d\<tau\>=<big|int><rsup|t><rsub|\<pi\>><frac|1|<sqrt|
+        2>>d\<tau\>
+      </equation*>
     </itemize>
-  </shown>|<\hidden>
+  </hidden>|<\shown>
     <tit|Local Isometry>
 
     <\itemize>
@@ -118,9 +134,11 @@
         <math|t<rsub|1>,t<rsub|2>> panjang kurva <math|\<gamma\>> dari
         <math|t<rsub|1>> ke <math|t<rsub|2>> sama dengan panjang kurva
         <math|f\<circ\> \<gamma\>> dari <math|t<rsub|1>> ke <math|t<rsub|2>>.
+        Jika <math|f> juga diffeomorfisme <math|<around*|(|f<rsup|-1> ada dan
+        bersifat mulus|)> > maka <math|f> disebut isometri.
       </shown>>
     </itemize>
-  </hidden>|<\hidden>
+  </shown>|<\hidden>
     <tit|Luas Permukaan>
 
     <\itemize>
